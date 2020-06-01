@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regress Test Suite,,,,2020-06-02 00:49:27,2020-06-02 00:50:58,1m - 30.842s,PASSED
+,,,,,,,
+Test Cases/VideoPlaylist,,,,2020-06-02 00:49:51,2020-06-02 00:50:23,32.294s,PASSED
+sDate = new java.text.SimpleDateFormat(dd-MM-yy HHmmss),,Get Date Time,,2020-06-02 00:49:51,2020-06-02 00:49:51,0.009s,PASSED
+date = sDate.format(new java.util.Date()),,,,2020-06-02 00:49:51,2020-06-02 00:49:51,0.010s,PASSED
+try,,,,2020-06-02 00:49:51,2020-06-02 00:50:23,31.969s,PASSED
+,,,,,,,
+Test Cases/CampusSearch,,,,2020-06-02 00:50:23,2020-06-02 00:50:58,34.296s,PASSED
+sDate = new java.text.SimpleDateFormat(dd-MM-yy HHmmss),,Get Date Time,,2020-06-02 00:50:23,2020-06-02 00:50:23,0.001s,PASSED
+date = sDate.format(new java.util.Date()),,,,2020-06-02 00:50:23,2020-06-02 00:50:23,0.000s,PASSED
+try,,,,2020-06-02 00:50:23,2020-06-02 00:50:58,34.133s,PASSED

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regress Test Suite" time="92.343" tests="2" failures="0" errors="0">
+   <testsuite name="Regress Test Suite" tests="2" failures="0" errors="0" time="92.343" timestamp="2020-06-02 00:49:27" hostname="echogeer - DESKTOP-HODD78H" id="Test Suites/Regress Test Suite">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (ONEPLUS A3010 - Android 7.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919"/>
+         <property name="logFiles" value="D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919\\appium.log, D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919\\execution0.log"/>
+         <property name="attachments" value="D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919\\D:/Test/Quipper/AutomatePlaylist/Data Files/Evidence/02-06-20 004951.png, D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919\\D:/Test/Quipper/AutomatePlaylist/Data Files/Evidence/02-06-20 005023.png"/>
+         <property name="hostName" value="echogeer - DESKTOP-HODD78H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.8.1\&quot;,\&quot;revision\&quot;:null}}}"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="ONEPLUS A3010"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="deviceManufacturer" value="OnePlus"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (ONEPLUS A3010 - Android 7.1.1)"/>
+         <property name="deviceOSVersion" value="7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/VideoPlaylist" time="32.294" classname="Test Cases/VideoPlaylist" status="PASSED">
+         <system-out><![CDATA[2020-06-02 00:49:51 - [TEST_CASE][PASSED] - Test Cases/VideoPlaylist: Test Cases/VideoPlaylist
+
+2020-06-02 00:49:51 - [TEST_STEP][PASSED] - sDate = new java.text.SimpleDateFormat(dd-MM-yy HHmmss): null
+
+2020-06-02 00:49:51 - [TEST_STEP][PASSED] - date = sDate.format(new java.util.Date()): null
+
+2020-06-02 00:49:51 - [TEST_STEP][PASSED] - try: Screenshot is taken
+
+2020-06-02 00:49:51 - [TEST_STEP][PASSED] - path = getProjectDir() + "/Data Files/Evidence/" + date + ".png": null
+
+2020-06-02 00:49:51 - [TEST_STEP][PASSED] - startExistingApplication("com.quipper.tenji"): Starting app with application ID: 'com.quipper.tenji'
+
+2020-06-02 00:49:51 - [MESSAGE][INFO] - User set preference: ['deviceId', 'emulator-5554']
+
+2020-06-02 00:50:08 - [MESSAGE][PASSED] - Starting app with application ID: 'com.quipper.tenji'
+
+2020-06-02 00:50:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/android.widget.TextView0 - Tenji"), 0): Element 'Object Repository/android.widget.TextView0 - Tenji' is present
+
+2020-06-02 00:50:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:09 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView0 - Tenji' is present
+
+2020-06-02 00:50:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageView1"), 0): Tapped on element 'Object Repository/android.widget.ImageView1'
+
+2020-06-02 00:50:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageView1'
+
+2020-06-02 00:50:11 - [TEST_STEP][PASSED] - videoDisplay = verifyElementExist(findTestObject("Object Repository/android.widget.FrameLayoutVideoContent"), 0): Element 'Object Repository/android.widget.FrameLayoutVideoContent' is exist
+
+2020-06-02 00:50:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:12 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.FrameLayoutVideoContent' is exist
+
+2020-06-02 00:50:12 - [TEST_STEP][PASSED] - if (videoDisplay): Screenshot is taken
+
+2020-06-02 00:50:12 - [TEST_STEP][PASSED] - markPassed("Video displayed"): Video displayed
+
+2020-06-02 00:50:12 - [MESSAGE][PASSED] - Video displayed
+
+2020-06-02 00:50:12 - [TEST_STEP][PASSED] - PlayVideo = verifyElementExist(findTestObject("Object Repository/android.widget.ImageButton3"), 0): Element 'Object Repository/android.widget.ImageButton3' is exist
+
+2020-06-02 00:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:12 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.ImageButton3' is exist
+
+2020-06-02 00:50:12 - [TEST_STEP][PASSED] - if (PlayVideo): Screenshot is taken
+
+2020-06-02 00:50:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.ImageButton3"), 0): Tapped on element 'Object Repository/android.widget.ImageButton3'
+
+2020-06-02 00:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.ImageButton3'
+
+2020-06-02 00:50:18 - [TEST_STEP][PASSED] - markPassed("Video PLAYED"): Video PLAYED
+
+2020-06-02 00:50:18 - [MESSAGE][PASSED] - Video PLAYED
+
+2020-06-02 00:50:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-02 00:50:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-02 00:50:23 - [TEST_STEP][PASSED] - takeScreenshot(path): Screenshot is taken
+
+2020-06-02 00:50:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919\\D:/Test/Quipper/AutomatePlaylist/Data Files/Evidence/02-06-20 004951.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CampusSearch" time="34.296" classname="Test Cases/CampusSearch" status="PASSED">
+         <system-out><![CDATA[2020-06-02 00:50:23 - [TEST_CASE][PASSED] - Test Cases/CampusSearch: Test Cases/CampusSearch
+
+2020-06-02 00:50:23 - [TEST_STEP][PASSED] - sDate = new java.text.SimpleDateFormat(dd-MM-yy HHmmss): null
+
+2020-06-02 00:50:23 - [TEST_STEP][PASSED] - date = sDate.format(new java.util.Date()): null
+
+2020-06-02 00:50:23 - [TEST_STEP][PASSED] - try: Screenshot is taken
+
+2020-06-02 00:50:23 - [TEST_STEP][PASSED] - path = getProjectDir() + "/Data Files/Evidence/" + date + ".png": null
+
+2020-06-02 00:50:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/android.widget.TextView0 - Tenji"), 0): Element 'Object Repository/android.widget.TextView0 - Tenji' is present
+
+2020-06-02 00:50:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:24 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView0 - Tenji' is present
+
+2020-06-02 00:50:24 - [TEST_STEP][PASSED] - ElementExsiting = verifyElementNotExist(findTestObject("Object Repository/CampusSearch/android.widget.ImageView0"), 10): Element 'Object Repository/CampusSearch/android.widget.ImageView0' not found
+
+2020-06-02 00:50:34 - [MESSAGE][PASSED] - Element 'Object Repository/CampusSearch/android.widget.ImageView0' not found
+
+2020-06-02 00:50:34 - [TEST_STEP][PASSED] - if (ElementExsiting == true): Tapped on element 'Object Repository/CampusSearch/android.widget.ImageButtonBack'
+
+2020-06-02 00:50:34 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CampusSearch/android.widget.ImageButtonBack"), 0): Tapped on element 'Object Repository/CampusSearch/android.widget.ImageButtonBack'
+
+2020-06-02 00:50:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CampusSearch/android.widget.ImageButtonBack'
+
+2020-06-02 00:50:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CampusSearch/android.widget.ImageView0"), 0): Tapped on element 'Object Repository/CampusSearch/android.widget.ImageView0'
+
+2020-06-02 00:50:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CampusSearch/android.widget.ImageView0'
+
+2020-06-02 00:50:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CampusSearch/android.widget.TextView0 - Campus Search"), 0): Tapped on element 'Object Repository/CampusSearch/android.widget.TextView0 - Campus Search'
+
+2020-06-02 00:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CampusSearch/android.widget.TextView0 - Campus Search'
+
+2020-06-02 00:50:37 - [TEST_STEP][PASSED] - QuipperCampus = verifyElementExist(findTestObject("Object Repository/CampusSearch/android.view.ViewQuipperCampus"), 0): Element 'Object Repository/CampusSearch/android.view.ViewQuipperCampus' is exist
+
+2020-06-02 00:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-06-02 00:50:41 - [MESSAGE][PASSED] - Element 'Object Repository/CampusSearch/android.view.ViewQuipperCampus' is exist
+
+2020-06-02 00:50:41 - [TEST_STEP][PASSED] - if (QuipperCampus): Screenshot is taken
+
+2020-06-02 00:50:41 - [TEST_STEP][PASSED] - markPassed("Quipper Campus Display"): Quipper Campus Display
+
+2020-06-02 00:50:41 - [MESSAGE][PASSED] - Quipper Campus Display
+
+2020-06-02 00:50:41 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/CampusSearch/android.widget.EditTextSerachBox"), 5): Tapped on element 'Object Repository/CampusSearch/android.widget.EditTextSerachBox'
+
+2020-06-02 00:50:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/CampusSearch/android.widget.EditTextSerachBox'
+
+2020-06-02 00:50:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CampusSearch/android.widget.EditTextSerachBox"), "ITB ", 10): Text 'ITB ' has been set to element 'Object Repository/CampusSearch/android.widget.EditTextSerachBox'
+
+2020-06-02 00:50:44 - [MESSAGE][PASSED] - Text 'ITB ' has been set to element 'Object Repository/CampusSearch/android.widget.EditTextSerachBox'
+
+2020-06-02 00:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CampusSearch/android.widget.EditTextSerachBox"), "\n", 10): Text '\n' has been set to element 'Object Repository/CampusSearch/android.widget.EditTextSerachBox'
+
+2020-06-02 00:50:46 - [MESSAGE][PASSED] - Text '\n' has been set to element 'Object Repository/CampusSearch/android.widget.EditTextSerachBox'
+
+2020-06-02 00:50:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-02 00:50:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-02 00:50:51 - [TEST_STEP][PASSED] - ITBCampusDisplay = verifyElementVisible(findTestObject("Object Repository/CampusSearch/android.view.View93Footer"), 5): Element 'Object Repository/CampusSearch/android.view.View93Footer' is visible
+
+2020-06-02 00:50:52 - [MESSAGE][PASSED] - Element 'Object Repository/CampusSearch/android.view.View93Footer' is visible
+
+2020-06-02 00:50:52 - [TEST_STEP][PASSED] - if (ITBCampusDisplay == true): Screenshot is taken
+
+2020-06-02 00:50:52 - [TEST_STEP][PASSED] - markPassed("ITB Campus Displayed"): ITB Campus Displayed
+
+2020-06-02 00:50:52 - [MESSAGE][PASSED] - ITB Campus Displayed
+
+2020-06-02 00:50:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-06-02 00:50:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-06-02 00:50:57 - [TEST_STEP][PASSED] - takeScreenshot(path): Screenshot is taken
+
+2020-06-02 00:50:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\\Test\\Quipper\\AutomatePlaylist\\Reports\\20200602_004919\\Regress Test Suite\\20200602_004919\\D:/Test/Quipper/AutomatePlaylist/Data Files/Evidence/02-06-20 005023.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-06-02 00:49:27 - [TEST_SUITE][PASSED] - Regress Test Suite: Test Cases/CampusSearch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
