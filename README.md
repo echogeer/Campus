@@ -32,7 +32,7 @@ Quipper Android Test Engineer Technical Exam.
  This Step For Running Test Suite 
 1. Connect(Plug in) Mobile device or Running Emulator(make sure the tenji application already installed or exist in device)
 2. Open Regress Test Suite
-3. Execute a test suite using an Android device
+3. Execute a test suite using an Android device (https://docs.katalon.com/katalon-studio/docs/mobile-on-windows.html#verifiying-the-setup)
 4. Select your device from the Android Devices list. Click OK. 
 5. If your test suite runs successfully, you will see the results in the test reports.
 
